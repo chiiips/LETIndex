@@ -1,0 +1,452 @@
+# Ignore Visual Studio Code settings
+.vscode/
+.cache/
+
+# Ignore JetBrains settings
+.idea/
+cmake-build-debug/
+
+# Ignore build directories
+build/
+bin/
+obj/
+
+# Ignore compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Ignore libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+*.pdb
+*.ilk
+*.dSYM/
+*.dSYM.zip
+
+# Ignore debug files
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.code-workspace
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+
+# Ignore generated files
+*.d
+*.gcno
+*.gcda
+*.gcov
+*.gcov.json
+*.gcov.json.gz
+*.gcov.gz
+*.gcda
+*.gcno
+*.gcda
+*.gcno
+*.gcov
+*.gcov.json
+*.gcov.json.gz
+*.gcov.gz
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Ignore other IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.idea/
+.DS_Store
+*_data
+*_index
+*.metadata
+workloads/*
+data/
+*.sgx
+*.manifest
+*.sig
+results/
+TPC-H*
+tables/
+communicate/
+tools/__pycache__/
+*.csv
+
+# ========================
+# Frontend (Vue + TypeScript + Vite)
+# ========================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package manager lockfiles (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Storybook build outputs
+storybook-static
+
+# Temporary folders
+.tmp/
+.cache/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Vue specific
+*.vue.js
+*.vue.js.map
+
+# ========================
+# Backend (Django + Python)
+# ========================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Scrapy specific
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Django migrations (uncomment if you want to ignore them)
+# */migrations/*.py
+# */migrations/*.pyc
+# !*/migrations/__init__.py
+
+# Django static files
+staticfiles/
+static/
+media/
+
+# Django secret key and sensitive settings
+secret_key.txt
+.env.local
+.env.production
+
+# Database backups
+*.sql
+*.dump
+
+# ========================
+# C++ / CMake Project
+# ========================
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Build directories
+build/
+Build/
+BUILD/
+out/
+debug/
+release/
+Debug/
+Release/
+
+# Qt-related
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp
+
+# CodeLite
+*.codelite_workspace
+*.project
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# CLion
+.idea/
+
+# Conan
+conanfile.txt
+conaninfo.txt
+conanbuildinfo.*
+
+# vcpkg
+vcpkg_installed/
+
+# Project specific executables
+demo
+table_test
+dbgen
+
+# SGX/Gramine specific
+*.manifest.sgx
+*.sig
+*.token
+
+# Data and index files
+*_data
+*_index
+*.bt
+*.col
+*.tbl
+*.table
+
+# Communication files
+request
+response
+
+# Generated files
+compile_commands.json
